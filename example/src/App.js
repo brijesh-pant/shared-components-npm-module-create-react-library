@@ -1,10 +1,11 @@
 import React from 'react'
 
-import { ExampleComponent } from 'shared-components-npm-module-create-react-library'
-import 'shared-components-npm-module-create-react-library/dist/index.css'
+import { Ribbon } from 'shared-components-npm-module-create-react-library'
+// import { ExampleComponent } from 'shared-components-npm-module-create-react-library'
+// import 'shared-components-npm-module-create-react-library/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Ribbon appearance='grey900' value='Test' />
 }
 
 export default App
